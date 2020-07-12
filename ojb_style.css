@@ -1,0 +1,91 @@
+* {box-sizing: border-box}
+
+.carousel-item img {
+    max-height: 600px !important;
+}
+
+#head, h6 {
+    text-align: center;
+}
+
+body {
+    background-color: #594CD8 !important;
+}
+
+.container{
+    background-color:  #7b72d8 !important;
+    padding: 10px;
+    margin: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+#head {
+    background-color: #7b72d8 !important;
+}
+
+table {
+    background-color: beige;
+}
+
+.activity {
+    background-color: beige;
+    padding: 5px;
+}
+
+.win {
+    font-weight: bold;
+}
+
+#word {
+    text-align: center;
+    font-size: 28px;
+}
+
+.reflexive {
+    background-color: burlywood;
+}
+
+form {
+    background-color: beige;
+    padding: 10px;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+.active, .collapsible:hover {
+    background-color: #ccc;
+} 
+
+.content {
+    padding: 0 18px;
+    background-color: #f1f1f1 !important;
+    margin: 2rem;
+  }
+
+  .carousel {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #594CD8;
+  }
+
+  .text {
+      color: black
+  }
+
+  a {
+      color: black !important;
+  }
