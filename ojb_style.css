@@ -1,37 +1,80 @@
 * {box-sizing: border-box}
 
-.carousel-item img {
-    max-height: 600px !important;
+/* carousel styling */
+
+.carousel-item {
+    height: 300px;
 }
 
-#head, h6 {
+.carousel {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+.carousel-caption {
+    position: relative;
+    left: 0 !important;
+    bottom: 0 !important;
+}
+
+
+/* header */
+#head {
     text-align: center;
+    background-color: #071a52 !important;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
 }
 
 body {
-    background-color: #594CD8 !important;
+    background-color: #a7ff83 !important;
 }
 
-.container{
-    background-color:  #7b72d8 !important;
+/* page content */
+.content{
+    background-color:  #17b978 !important;
     padding: 10px;
-    margin: 10px;
+    width: 75% !important;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
 
 p {
     font-size: 16px;
 }
 
-#head {
-    background-color: #7b72d8 !important;
+td {
+    border: 1px solid black;
 }
 
+
+/* tables */
 table {
-    background-color: beige;
+    background-color:#086972;
+    color: black;
+    max-width: 65%;
 }
+
+.scroll {
+    overflow: scroll;
+}
+
+/* activity related styles */
 
 .activity {
-    background-color: beige;
+    background-color: #086972;
     padding: 5px;
 }
 
@@ -48,44 +91,41 @@ table {
     background-color: burlywood;
 }
 
+/* conjugation tables */
+
 form {
-    background-color: beige;
+    background-color: #086972;
     padding: 10px;
+    color: black;
+    border-radius: 5px;
 }
 
+
+/* answer button for intransitive verbs */
 .collapsible {
     background-color: #eee;
-    color: #444;
+    color: #111;
     cursor: pointer;
     padding: 18px;
-    width: 100%;
+    width: 15rem;
     border: none;
     text-align: left;
     outline: none;
     font-size: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 600;
   }
 
 .active, .collapsible:hover {
     background-color: #ccc;
 } 
 
-.content {
-    padding: 0 18px;
-    background-color: #f1f1f1 !important;
-    margin: 2rem;
-  }
+  
+.text {
+    color: black
+}
 
-  .carousel {
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      background-color: #594CD8;
-  }
-
-  .text {
-      color: black
-  }
-
-  a {
-      color: black !important;
-  }
+a {
+  color: black !important;
+}
