@@ -38,6 +38,11 @@ body {
     background-color: #a7ff83 !important;
 }
 
+/* navigation list */
+.nav-list {
+    line-height: 2.5rem !important;
+}
+
 /* page content */
 .content{
     background-color:  #17b978 !important;
@@ -52,7 +57,7 @@ body {
 
 
 p {
-    font-size: 16px;
+    font-size: 1rem !important;
 }
 
 td {
@@ -89,6 +94,12 @@ table {
 
 .reflexive {
     background-color: burlywood;
+}
+
+/* images */
+.extra-images {
+    height: 100px;
+    width: 100px;
 }
 
 /* conjugation tables */

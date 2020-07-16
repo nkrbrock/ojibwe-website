@@ -95,24 +95,24 @@ function evaluateGuess(input) {
     console.log(input);
     var selectedWord = wordList[randomWord];
     if(input.keyCode == 73 && selectedWord.category == "inanimate") {
-        alert(`Correct! ${selectedWord.text} is ${selectedWord.category}!`);
+        document.querySelector("#answer").innerHTML = `Correct! ${selectedWord.text} is ${selectedWord.category}!`;
         wins++;
         end = true;
     }
 
     else if(input.keyCode == 65 && selectedWord.category == "animate") {
-        alert(`Correct! ${selectedWord.text} is ${selectedWord.category}!`);
+        document.querySelector("#answer").innerHTML = `Correct! ${selectedWord.text} is ${selectedWord.category}!`;
         wins++;
         end = true;
     }
 
     else if(input.keyCode == 73 && selectedWord.category == "animate") {
-        alert(`Incorrect! ${selectedWord.text} is actually ${selectedWord.category}.`);
+        document.querySelector("#answer").innerHTML = `Incorrect! ${selectedWord.text} is actually ${selectedWord.category}.`;
         end = true;
     }
 
     else if(input.keyCode == 65 && selectedWord.category == "inanimate") {
-        alert(`Incorrect! ${selectedWord.text} is actually ${selectedWord.category}.`);
+        document.querySelector("#answer").innerHTML = `Incorrect! ${selectedWord.text} is actually ${selectedWord.category}.`;
         end = true;
     }
     updateDisplay();

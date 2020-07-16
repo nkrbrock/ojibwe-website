@@ -67,11 +67,12 @@ function guesses(input) {
 function evaluateGuess() {
     var selectedPhrase = phrases[randomPhrase];
     if (document.getElementById('input') === selectedPhrase.ojibwe) {
+        document.querySelector("#answer").innerHTML = `Correct, ${selectedPhrase.english} is ${selectedPhrase.ojibwe}`;
         wins++;
         end = true;
     }
     else {
-        alert(`The correct answer is ${selectedPhrase.ojibwe}`);
+        document.querySelector("#answer").innerHTML = `The correct answer is ${selectedPhrase.ojibwe}`;
         end = true;
     }
     updateDisplay();
