@@ -24,6 +24,8 @@
     text-align: center;
     background-color: #071a52 !important;
     color: white;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
